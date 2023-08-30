@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+.genres {
+  width: fit-content;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 0;
+}
+.carousel-control-prev {
+  width: 25px;
+}
+.carousel-control-next {
+  width: 25px;
+}
+.card {
+  transition: transform 500ms ease-in-out;
+  animation-name: fade-in;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(1, 0.29, 0, 0.8);
+}
+.card:hover {
+  transform: scale(1.1);
+}
+@keyframes fade-in {
+  form {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
