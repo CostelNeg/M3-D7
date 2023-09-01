@@ -1,12 +1,20 @@
 body {
   background-color: black;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
 .genres {
-  width: fit-content;
+  
+  display: flex;
+  align-items: center;
   background-color: black;
-  text-align: center;
   color: white;
   padding: 0;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
 }
 .carousel-control-prev {
   width: 25px;
@@ -14,20 +22,26 @@ body {
 .carousel-control-next {
   width: 25px;
 }
+.carousel-inner{
+  overflow: visible;
+}
 .card {
+  width: 100%;
+  z-index: 0;
+  padding: 2 2px;
   transition: transform 500ms ease-in-out;
-  animation-name: fade-in;
-  animation-duration: 3s;
-  animation-timing-function: cubic-bezier(1, 0.29, 0, 0.8);
 }
+
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  z-index: 2;
+padding: 2 2px;
+  position: relative;
 }
-@keyframes fade-in {
-  form {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
+
+@media screen and (max-width : 980px){
+  .nascondi
+  {
+    overflow-x: hidden;
   }
 }
