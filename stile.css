@@ -4,12 +4,15 @@
   background-repeat: no-repeat;
   background-position: center;
   content: "";
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
   position: absolute;
   z-index: 0;
   top: 0%;
   right: 0;
   left: 0;
-  bottom: 20%;
+
   animation: fade-out 1s ease-in-out 1s forwards;
 }
 
