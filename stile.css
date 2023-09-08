@@ -1,4 +1,4 @@
-.img-initial::before {
+/* .img-initial::before {
   background-image: url(assets/netflix-intro-netflix.gif);
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
   left: 0;
 
   animation: fade-out 1s ease-in-out 1s forwards;
-}
+} */
 
 @keyframes fade-out {
   0% {
@@ -138,20 +138,20 @@ body {
   }
 }
 .carousel1 {
-  animation: fade-in 2.1s ease-in-out 1.7s backwards;
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
 }
 .carousel2 {
-  animation: fade-in 2.1s ease-in-out 1.8s backwards;
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
 }
 .carousel3 {
-  animation: fade-in 2.1s ease-in-out 1.9s backwards;
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
 }
 .carousel4 {
-  animation: fade-in 2.1s ease-in-out 1.95s backwards;
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
 }
 
 .carousel5 {
-  animation: fade-in 2.1s ease-in-out 2s backwards;
+  animation: fade-in 0.9s ease-in-out 0.7s backwards;
 }
 .dropdown-menu > .dropdown-item {
   color: aliceblue;
